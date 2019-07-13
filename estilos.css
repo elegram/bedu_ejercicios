@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    background-color: #0c1717;
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly ;
+}
+.search_desktop {
+    display: flex;
+    align-items: center;
+}
+
+.icn_ml {
+    padding-right: 5px;
+}
+
+h1 {
+    font-family: DM Serif Display, serif;
+    color: #f5eee6;
+    font-size: 10rem;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+h2 {
+    font-family: Josefin Sans, sans serif;
+    font-size: 8rem;
+    font-weight: 400;
+    color: #071315;
+}
+
+h3 {
+    font-family: Josefin Sans, sans serif;
+    font-size: 6rem;
+    font-weight: 400;
+    color: #071315;
+}
+
+h4 {
+    font-family: Josefin Sans, sans serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #071315;
+}
+
+h5 {
+    font-family: Josefin Sans, sans serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #34BF8C;
+}
+
+h6 {
+    font-family: Josefin Sans, sans serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #071315;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+p {
+    font-family: Josefin Sans;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+.icn_ml {
+    width: 20px;
+}
+nav > a {
+    text-decoration: none;
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+
+}
+.searchbox-desktop {
+    margin-right: 2rem;
+}
+nav > a:hover {
+background-color: #303030;
+}
+nav > a:active {
+background-color: #917b67;
+font-size: 24px; 
+}
+
+
+.logo_bedu{
+    width: 8rem;
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.caja1{
+    background-color: blueviolet;
+    width: 35rem;
+    height: 35rem;
+    align-content: center;
+    display: flex;
+}
+.caja2{
+    display: inline-block;
+    background-color: rgb(43, 226, 83);
+    width: 5rem;
+    height: 5rem;
+    align-content: center;
+    margin: 0 15 15 15;
+    padding-top: 30rem;
+}
+
+.hero-image {
+    display: flex;
+    background-color: black;
+    height: 800px;
+    background-image: url("../imagenes/cenote.jpg");
+}
+
+.main-paragraph {
+    font-family: Josefin Sans, sans serif;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.596);
+    margin-left: 2rem;
+    margin-right: 0;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    color: #071315;
+    text-indent: 20px;
+}
+
+
+
+i {
+    color: #34BF8C;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    padding: 5px;
+    text-align: center;
+}
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 10px;
+    align-content: center;
+    /* font-size: 30px;
+    text-align: center; */
+}
+.grid-item img {
+    height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation > a  {
+        display: none;
+    }  
+    .navigation > .search_desktop  {
+        display: none;
+    }  
+    .navigation > .logo_bedu  {
+        width: 150px;
+        margin-left: 1rem;
+    }
+    h1 {
+          font-size: 3rem;
+          line-height: 3.5rem;
+        }
+      .hero-image {
+          height: 400px;
+          background-size: 150%;
+        }
+
+        .main-paragraph {
+          font-size: 1.5rem;
+          padding: 20px 0 20 0;
+          text-indent: 20px;
+        }
+        .icons-container {
+          display: flex;
+          height: 300px;
+          flex-direction: column;
+          padding: 2rem;
+          margin-top: 50px;
+      }
+       h5 {
+          margin-top: 10px;
+      }
+      .grid-container{
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+          padding-left: 0;
+        }
+      .grid-item {
+          width: 100%;
+          margin: 0;
+          padding-left: 0;
+          padding-right: 0;
+  }
+
+}
+.icons-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    font-size: 50px;
+    background: #091011;
+}
